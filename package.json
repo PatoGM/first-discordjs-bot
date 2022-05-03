@@ -1,0 +1,19 @@
+{
+  "name": "first-discordjs-bot",
+  "version": "1.0.0",
+  "description": "First bot made with Discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatoGM/first-discordjs-bot.git"
+  },
+  "author": "Pato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatoGM/first-discordjs-bot/issues"
+  },
+  "homepage": "https://github.com/PatoGM/first-discordjs-bot#readme"
+}
