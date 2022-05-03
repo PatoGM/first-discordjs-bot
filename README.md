@@ -1,5 +1,13 @@
 # first-discordjs-bot
 
+## Bot explanation
+
+This bot is configured to be used purely for testing and debugging purposes on a special dev channel. Things to keep note of:
+
+1. Most of this code is copied straight from https://discordjs.guide/creating-your-bot
+2. Bot tokens are normally not meant to be casually shared
+3. I might/will mess up the code inside this repo (accidentaly) at some point!
+
 ## Setting up bot for local development
 
 1. git clone https://github.com/PatoGM/first-discordjs-bot.git
@@ -31,6 +39,10 @@
 9. Open one terminal inside the folder you just cloned and run "tsc -w"
 10. Open another terminal and run "node index.js" whenever you want to run the bot.
 11. Code away!
+
+## Adjusting Commands
+
+The file deploy-command.ts
 
 ## Commands used to setup this repo
 
