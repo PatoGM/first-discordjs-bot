@@ -40,9 +40,14 @@ This bot is configured to be used purely for testing and debugging purposes on a
 10. Open another terminal and run "node index.js" whenever you want to run the bot.
 11. Code away!
 
-## Adjusting Commands
+## Explanation of "deploy-commands.js"
 
-The file deploy-command.ts
+The file deploy-commands.js does not have to be run often. This file only has to be run when updating/editing the commands
+listed inside the script. As per the guide:
+
+"Once you fill in these values, run node deploy-commands.js in your project directory to register your commands to a single guild. It's also possible to register commands globally."
+
+link to info on registering commands globally: https://discordjs.guide/interactions/slash-commands.html#global-commands
 
 ## Commands used to setup this repo
 
