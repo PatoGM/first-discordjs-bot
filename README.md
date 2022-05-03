@@ -12,7 +12,7 @@ This bot is configured to be used purely for testing and debugging purposes on a
 
 1. git clone https://github.com/PatoGM/first-discordjs-bot.git
 2. npm install
-3. Take secret bot token from discord server and place into a file called "config.json" as follows:
+3. Take secret bot token from our private discord dev server and place into a file called "config.json" as follows:
 
 {
 	"token": "token goes here"
@@ -27,8 +27,7 @@ This bot is configured to be used purely for testing and debugging purposes on a
     "guildId": "id you just copied"
 }
 
-7. Right click on user of choice, in this case yourself, and click "Copy ID" at bottom of menu
-8. Save id inside "config.json" as "clientId":
+7. Take secret client id from our private discord dev server (this id would normally appear as "Application ID" inside Discord's Dev Web Page) and add it to "config.json"
 
 {
 	"token": "secret token",
@@ -36,9 +35,9 @@ This bot is configured to be used purely for testing and debugging purposes on a
     "clientId": "id you just copied
 }
 
-9. Open one terminal inside the folder you just cloned and run "tsc -w"
-10. Open another terminal and run "node index.js" whenever you want to run the bot.
-11. Code away!
+8. Open one terminal inside the folder you just cloned and run "tsc -w"
+9. Open another terminal and run "node index.js" whenever you want to run the bot.
+10. Code away!
 
 ## Explanation of "deploy-commands.js"
 
