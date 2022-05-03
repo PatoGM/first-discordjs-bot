@@ -10,4 +10,5 @@
 }
 
 3. Open one terminal inside the folder you just cloned and run "tsc --watch index.ts"
-4. Code away!
+4. Open another terminal and run "node index.js" whenever you want to run the bot.
+5. Code away!
