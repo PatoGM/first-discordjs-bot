@@ -10,9 +10,27 @@
 	"token": "token goes here"
 }
 
-4. Open one terminal inside the folder you just cloned and run "tsc -w"
-5. Open another terminal and run "node index.js" whenever you want to run the bot.
-6. Code away!
+4. Go to discord.com, User settings, "Advanced" under "App Settings" and turn on "Developer Mode"
+5. Right click server of choice, in this case our dev server, and click "Copy ID" at bottom of menu
+6. Save id inside "config.json" as "guildId":
+
+{
+	"token": "secret token",
+    "guildId": "id you just copied"
+}
+
+7. Right click on user of choice, in this case yourself, and click "Copy ID" at bottom of menu
+8. Save id inside "config.json" as "clientId":
+
+{
+	"token": "secret token",
+    "guildId": "server id",
+    "clientId": "id you just copied
+}
+
+9. Open one terminal inside the folder you just cloned and run "tsc -w"
+10. Open another terminal and run "node index.js" whenever you want to run the bot.
+11. Code away!
 
 ## Commands used to setup this repo
 
@@ -24,3 +42,5 @@
 4. tsc --init
 5. Uncomment tsconfig line 36 ("resolveJsonModule": true,) to remove tsc errors
 - Can probably do this earlier!
+6. created index.ts based on guide: https://discordjs.guide/creating-your-bot/#creating-the-main-file
+7. created deploy-commands.ts based on guide: https://discordjs.guide/creating-your-bot/creating-commands.html#command-deployment-script
