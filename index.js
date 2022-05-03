@@ -19,6 +19,7 @@ client.once('ready', () => {
     console.log('Ready!');
 });
 client.on('interactionCreate', (interaction) => __awaiter(void 0, void 0, void 0, function* () {
+    console.log('Command!');
     if (!interaction.isCommand())
         return;
     const { commandName } = interaction;

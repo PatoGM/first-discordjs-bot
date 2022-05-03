@@ -6,7 +6,8 @@ This bot is configured to be used purely for testing and debugging purposes on a
 
 1. Most of this code is copied straight from https://discordjs.guide/creating-your-bot
 2. Bot tokens are normally not meant to be casually shared
-3. I might/will mess up the code inside this repo (accidentaly) at some point!
+3. In order for a bot to work, someone must be running it! I'm currently doing so myself.
+4. I might/will mess up the code inside this repo (accidentaly) at some point!
 
 ## Setting up bot for local development
 
