@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PatoGM/first-discordjs-bot/issues"
   },
-  "homepage": "https://github.com/PatoGM/first-discordjs-bot#readme"
+  "homepage": "https://github.com/PatoGM/first-discordjs-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
 }
