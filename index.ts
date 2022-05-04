@@ -11,10 +11,11 @@ client.once('ready', () => {
 });
 
 client.on('interactionCreate', async interaction => {
-	console.log('Command!');
 	if (!interaction.isCommand()) return;
 
 	const { commandName } = interaction;
+
+	console.log(commandName)
 
 	if (commandName === 'ping') {
 		await interaction.reply('Pong!');
@@ -22,6 +23,8 @@ client.on('interactionCreate', async interaction => {
 		await interaction.reply('Server info.');
 	} else if (commandName === 'user') {
 		await interaction.reply('User info.');
+	} else if (commandName === 'boo') {
+		await interaction.reply('boo!');
 	}
 });
 
