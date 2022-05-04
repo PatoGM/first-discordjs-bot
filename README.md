@@ -62,3 +62,4 @@ link to more info on registering commands: https://discordjs.guide/interactions/
 - Can probably do this earlier!
 6. created index.ts based on guide: https://discordjs.guide/creating-your-bot/#creating-the-main-file
 7. created deploy-commands.ts based on guide: https://discordjs.guide/creating-your-bot/creating-commands.html#command-deployment-script
+8. split deploy-commands.ts into two files, one for global commands and one for specific server commands. This was because registering both types of commands in a short span of time would break commands on servers somehow.
