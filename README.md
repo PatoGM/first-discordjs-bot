@@ -40,14 +40,15 @@ This bot is configured to be used purely for testing and debugging purposes on a
 9. Open another terminal and run "node index.js" whenever you want to run the bot.
 10. Code away!
 
-## Explanation of "deploy-commands.js"
+## Explanation of "deploy-X-commands.js"
 
-The file deploy-commands.js does not have to be run often. This file only has to be run when updating/editing the commands
-listed inside the script. As per the guide:
+The file deploy-global-commands.js should be run with much care. Whenever a bot has its global commands updated, everything should update appropriately, but it may be possible that something "bugs out" and the bot has to be removed and re-added to a server.
 
-"Once you fill in these values, run node deploy-commands.js in your project directory to register your commands to a single guild. It's also possible to register commands globally."
+As for the deploy-dev-server-commands.js, this must be run after the bot has joined a server of choice, at which point the bot will now have special commands available on that server only. Again, updating this frequently should not be a problem, but perhaps the bot may have to be removed, re-added, and then commands re-registered.
 
-link to info on registering commands globally: https://discordjs.guide/interactions/slash-commands.html#global-commands
+NOTE!!!: These two files were originally one, but were split as running both the global-register-command and the server-register-command at the same time / shortly after each other would result in commands being not properly registered on servers.
+
+link to more info on registering commands: https://discordjs.guide/interactions/slash-commands.html
 
 ## Commands used to setup this repo
 

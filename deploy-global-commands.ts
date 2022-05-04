@@ -4,9 +4,9 @@ import { Routes } from 'discord-api-types/v9';
 import { clientId, token } from './config.json';
 
 const global_commands = [
-	new SlashCommandBuilder().setName('user').setDescription('Replies with user info!'),
-	new SlashCommandBuilder().setName('ping').setDescription('Replies with pong!'),
-	new SlashCommandBuilder().setName('server').setDescription('Replies with server info!'),
+	new SlashCommandBuilder().setName('users').setDescription('Replies with user info!'),
+	new SlashCommandBuilder().setName('pings').setDescription('Replies with pong!'),
+	new SlashCommandBuilder().setName('servers').setDescription('Replies with server info!'),
 ].map(command => command.toJSON());
 
 const rest = new REST({ version: '9' }).setToken(token);
