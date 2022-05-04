@@ -6,7 +6,7 @@ This bot is configured to be used purely for testing and debugging purposes on a
 
 1. Most of this code is copied straight from https://discordjs.guide/creating-your-bot
 2. Bot tokens are normally not meant to be casually shared
-3. In order for a bot to work, someone must be running it! I'm currently doing so myself. If more than one person is running the bot, the newest instance will coninue working while older instances will crash when a slash command is called.
+3. In order for a bot to work, someone must be running it! I'm currently doing so myself. If more than one person is running the bot, the newest instance will continue working while older instances will crash when a slash command is called.
 4. I might/will mess up the code inside this repo (accidentaly) at some point!
 
 ## Setting up bot for local development
