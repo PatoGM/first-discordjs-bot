@@ -14,6 +14,11 @@ This bot is configured to be used purely for testing and debugging purposes on a
 4. In order to update the currently running instance of this bot, simply push changes to this repo. Make sure index.js is correctly updated by running "tsc -w" whenever you are updating index.ts before pushing your changes.
 5. I might/will mess up the code inside this repo (accidentaly) at some point!
 
+## System Requirements
+
+1. Node and NPM -> Version 16.14.x is recommended
+2. Typescript -> Any version should be fine
+
 ## Setting up environment for local development / testing
 
 1. git clone https://github.com/PatoGM/first-discordjs-bot.git
