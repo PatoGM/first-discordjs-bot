@@ -16,13 +16,23 @@ This bot is configured to be used purely for testing and debugging purposes on a
 
 ## System Requirements
 
-1. Node and NPM -> Version 16.14.x is recommended
-2. Typescript -> Any version should be fine
+1. Node and NPM -> Version 16.14+ is recommended, I believe 16.6+ is required by Discord.js. Link to page for installation of version 16.15:
+https://nodejs.org/en/download/
+2. Typescript -> Any version should be fine:
+```
+npm install -g typescript
+```
 
 ## Setting up environment for local development / testing
 
-1. git clone https://github.com/PatoGM/first-discordjs-bot.git
-2. npm install
+1. Clone this repo:
+```
+git clone https://github.com/PatoGM/first-discordjs-bot.git
+```
+2. Get Node Modules:
+```
+npm install
+```
 3. Take secret bot token from our private discord dev server and place into a file called "config.json" as follows:
 
 {
@@ -63,16 +73,28 @@ NOTE!!!: These two files were originally one, but were split as running both the
 link to more info on registering commands: https://discordjs.guide/interactions/slash-commands.html
 
 ## Commands used to setup this repo
-
-1. npm init
-2. npm install discord.js
+```
+npm init
+```
+```
+npm install discord.js
+```
 - This is the bare minimum to have a "bot", although it won't do anything
-3. npm install @discordjs/builders @discordjs/rest discord-api-types
+<br/>
+<br/>
+```
+npm install @discordjs/builders @discordjs/rest discord-api-types
+```
 - Allows for bare minimum bot "slash commands"
-4. tsc --init
-5. Uncomment tsconfig line 36 ("resolveJsonModule": true,) to remove tsc errors
-- Can probably do this earlier!
-6. created index.ts based on guide: https://discordjs.guide/creating-your-bot/#creating-the-main-file
-7. created deploy-commands.ts based on guide: https://discordjs.guide/creating-your-bot/creating-commands.html#command-deployment-script
-8. split deploy-commands.ts into two files, one for global commands and one for specific server commands. This was because registering both types of commands in a short span of time would break commands on servers somehow.
-9. Added webhook to prompt Jenkins server to update my bot instance.
+<br/>
+<br/>
+```
+tsc --init
+```
+
+#### Other things:
+- Uncomment tsconfig line 36 ("resolveJsonModule": true,) to remove tsc errors
+- created index.ts based on guide: https://discordjs.guide/creating-your-bot/#creating-the-main-file
+- created deploy-commands.ts based on guide: https://discordjs.guide/creating-your-bot/creating-commands.html#command-deployment-script
+- split deploy-commands.ts into two files, one for global commands and one for specific server commands. This was because registering both types of commands in a short span of time would break commands on servers somehow.
+- Added webhook to prompt Jenkins server to update my bot instance.
