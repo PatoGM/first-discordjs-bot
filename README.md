@@ -72,7 +72,7 @@ NOTE!!!: These two files were originally one, but were split as running both the
 
 link to more info on registering commands: https://discordjs.guide/interactions/slash-commands.html
 
-## Commands used to setup this repo
+## Commands used to originally create this repo
 ```
 npm init
 ```
