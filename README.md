@@ -80,16 +80,11 @@ npm init
 npm install discord.js
 ```
 - This is the bare minimum to have a "bot", although it won't do anything
-<br/>
-<br/>
 
 ```
 npm install @discordjs/builders @discordjs/rest discord-api-types
 ```
 - Allows for bare minimum bot "slash commands"
-<br/>
-<br/>
-
 ```
 tsc --init
 ```
