@@ -1,5 +1,9 @@
 # first-discordjs-bot
 
+Jenkins page (where you can see builds of my bot instance):
+
+https://tomcat9.patogm.net/jenkins/job/Discord%20Bot/
+
 ## Bot explanation
 
 This bot is configured to be used purely for testing and debugging purposes on a special dev channel. Things to keep note of:
