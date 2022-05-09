@@ -1,5 +1,4 @@
 #!bin/bash
-pm2 restart index.js
 
 # OLD SCRIPT
 # chmod 777 index.js

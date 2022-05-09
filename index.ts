@@ -18,7 +18,7 @@ client.on('interactionCreate', async interaction => {
 	console.log(commandName)
 
 	if (commandName === 'pings') {
-		await interaction.reply('Pongsss!');
+		await interaction.reply('Pog Champ!');
 	} else if (commandName === 'servers') {
 		await interaction.reply('Server info.');
 	} else if (commandName === 'users') {
