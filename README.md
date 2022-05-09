@@ -94,4 +94,6 @@ tsc --init
 - created index.ts based on guide: https://discordjs.guide/creating-your-bot/#creating-the-main-file
 - created deploy-commands.ts based on guide: https://discordjs.guide/creating-your-bot/creating-commands.html#command-deployment-script
 - split deploy-commands.ts into two files, one for global commands and one for specific server commands. This was because registering both types of commands in a short span of time would break commands on servers somehow.
+- Create and enable systemd service that runs index.js
+- Allow Jenkins (actually Tomcat) to restart services (edit tomcat service file to allow "sudo", then edit visudo to allow "sudo service")
 - Added webhook to prompt Jenkins server to update my bot instance.
